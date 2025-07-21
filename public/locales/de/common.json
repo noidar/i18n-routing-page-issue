@@ -1,0 +1,29 @@
+{
+  "welcome": "Willkommen",
+  "current-country": "Aktuelles Land",
+  "current-locale": "Aktuelle Sprache",
+  "country": "Land",
+  "language": "Sprache",
+  "counter": {
+    "title": "Zähler",
+    "increment": "Erhöhen",
+    "decrement": "Verringern",
+    "count": "Anzahl: {{count}}"
+  },
+  "navigation": {
+    "title": "Navigation",
+    "go-to-about": "Zur Über-Seite gehen"
+  },
+  "pages": {
+    "home": {
+      "title": "Startseite",
+      "description": "Dies ist die Startseite, die mit Pages Router und next-i18next gerendert wird."
+    },
+    "about": {
+      "title": "Über uns",
+      "description": "Dies ist die Über-Seite, die mit Pages Router und next-i18next gerendert wird.",
+      "go-back-home": "Zurück zur Startseite"
+    }
+  },
+  "pages-router-info": "Diese Seite wird mit dem Pages Router-Ansatz und next-i18next für Übersetzungen gerendert."
+}

@@ -1,0 +1,29 @@
+{
+  "welcome": "Vítejte",
+  "current-country": "Aktuální země",
+  "current-locale": "Aktuální jazyk",
+  "country": "Země",
+  "language": "Jazyk",
+  "counter": {
+    "title": "Počítadlo",
+    "increment": "Zvýšit",
+    "decrement": "Snížit",
+    "count": "Počet: {{count}}"
+  },
+  "navigation": {
+    "title": "Navigace",
+    "go-to-about": "Přejít na stránku O nás"
+  },
+  "pages": {
+    "home": {
+      "title": "Domovská stránka",
+      "description": "Toto je domovská stránka vykreslená pomocí Pages Router a next-i18next."
+    },
+    "about": {
+      "title": "O nás",
+      "description": "Toto je stránka O nás vykreslená pomocí Pages Router a next-i18next.",
+      "go-back-home": "Zpět na domovskou stránku"
+    }
+  },
+  "pages-router-info": "Tato stránka je vykreslena pomocí přístupu Pages Router s next-i18next pro překlady."
+}

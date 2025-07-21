@@ -1,0 +1,29 @@
+{
+  "welcome": "Welcome",
+  "current-country": "Current country",
+  "current-locale": "Current locale",
+  "country": "Country",
+  "language": "Language",
+  "counter": {
+    "title": "Counter",
+    "increment": "Increment",
+    "decrement": "Decrement",
+    "count": "Count: {{count}}"
+  },
+  "navigation": {
+    "title": "Navigation",
+    "go-to-about": "Go to About Page"
+  },
+  "pages": {
+    "home": {
+      "title": "Home Page",
+      "description": "This is the home page rendered with Pages Router and next-i18next."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "This is the about page rendered with Pages Router and next-i18next.",
+      "go-back-home": "Go back to Home"
+    }
+  },
+  "pages-router-info": "This page is rendered using the Pages Router approach with next-i18next for translations."
+}
