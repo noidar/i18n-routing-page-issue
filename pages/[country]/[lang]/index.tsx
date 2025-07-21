@@ -3,7 +3,6 @@ import { useTranslation } from 'next-i18next';
 import { getServerSideTranslations } from "../../../lib/serverSideTranslations";
 import { i18n, Locale, Country } from "../../../i18n-config";
 import LocaleSwitcherPages from "../../../components/locale-switcher-pages";
-import { TypeScriptDemo } from "../../../components/TypeScriptDemo";
 import Link from "next/link";
 import { useState } from 'react';
 
@@ -87,7 +86,6 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
     props: {
       country,
       lang,
-      // Load translations for the current locale only using typed helper
       ...(await getServerSideTranslations(lang, ['common'])),
     },
   };

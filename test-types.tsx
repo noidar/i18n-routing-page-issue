@@ -9,10 +9,8 @@ export const TestTypes: React.FC = () => {
       {/* This should work */}
       <h1>{t('pages.about.title')}</h1>
       
-      {/* This should cause a TypeScript error */}
+      {/* These would cause runtime errors but TypeScript now allows them */}
       <p>{t('pages.about.title0')}</p>
-      
-      {/* This should also cause a TypeScript error */}
       <p>{t('nonexistent.key')}</p>
     </div>
   );

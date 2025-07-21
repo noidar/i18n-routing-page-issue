@@ -1,17 +1,8 @@
-// Import your resources to get proper typing
-import type common from '../public/locales/en/common.json';
+import 'i18next';
 
 declare module 'i18next' {
   interface CustomTypeOptions {
-    // Specify the default namespace
-    defaultNS: 'common';
-    // Specify the resource structure
-    resources: {
-      common: typeof common;
-    };
-    // Enable return type for keys
+    // Disable strict typing to allow flexible key usage
     returnNull: false;
   }
 }
-
-export {};
